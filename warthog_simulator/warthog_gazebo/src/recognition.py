@@ -38,12 +38,16 @@ class image_converter:
     if len(res[0]) > 0:
         cv2.aruco.drawDetectedMarkers(frame,res[0],res[1])
         #logic to reconize
-        if res[1][0] == 100:
+        if res[1][0] == 5:
           self.flag_1 = True
           self.flag_1_pub.publish(self.flag_1)
-        if res [1][0] == 99:
+          self.flag_2 = False
+          self.flag_2_pub.publish(self.flag_2)
+        if res [1][0] == 7:
           self.flag_2 = True
           self.flag_2_pub.publish(self.flag_2)
+          # self.flag_1 = False
+          # self.flag_1_pub.publish(self.flag_1)
     cv2.imshow('frame',cv_image)
     cv2.waitKey(3)
 
