@@ -1,0 +1,4 @@
+<launch>
+<node pkg="warthog_gazebo" type="recognition.py" name="recognition" output="screen" respawn="false"> </node>
+<node pkg="warthog_gazebo" type="avoiding_warthog.py" name="avoiding_warthog" output="screen" respawn="false"> </node>
+</launch>

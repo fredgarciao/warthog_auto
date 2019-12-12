@@ -1299,67 +1299,35 @@
       <pose frame=''>-0.464139 0 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>2576 400000000</sim_time>
-      <real_time>21 115340984</real_time>
-      <wall_time>1574808586 296506992</wall_time>
-      <iterations>1750</iterations>
+      <sim_time>3256 930000000</sim_time>
+      <real_time>42 62874121</real_time>
+      <wall_time>1576169553 417976293</wall_time>
+      <iterations>4137</iterations>
       <model name='artag2'>
-        <pose frame=''>6.71667 7.91928 0.48015 1.5708 2e-06 0.138655</pose>
+        <pose frame=''>6.77675 7.86975 0.149994 1.5708 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='artag2::simple_box_base_link'>
-          <pose frame=''>6.71667 7.91928 0.48015 1.5708 2e-06 0.138655</pose>
+        <link name='simple_box_base_link'>
+          <pose frame=''>6.77675 7.86975 0.149994 1.5708 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>0 4e-06 -5e-06 -4.5e-05 0 0</acceleration>
+          <wrench>0 4e-06 -5e-06 0 -0 0</wrench>
         </link>
       </model>
       <model name='artag2_clone'>
-        <pose frame=''>-5.95141 6.35055 0.48015 1.5708 -1e-06 0.859514</pose>
+        <pose frame=''>-9.37183 0.480864 0.149996 1.57083 1e-06 1.63891</pose>
         <scale>1 1 1</scale>
-        <link name='artag2::simple_box_base_link'>
-          <pose frame=''>-5.95141 6.35055 0.48015 1.5708 -1e-06 0.859514</pose>
+        <link name='simple_box_base_link'>
+          <pose frame=''>-9.37183 0.480864 0.149996 1.57083 1e-06 1.63891</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='aruco_visual_marker_5'>
-        <pose frame=''>-7.35966 -7.57005 0.662587 3.14159 1.35345 3.14159</pose>
-        <scale>1 1 1</scale>
-        <link name='marker'>
-          <pose frame=''>-7.35966 -7.57005 0.662587 3.14159 1.35345 3.14159</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='marker_pad'>
-          <pose frame=''>-7.35967 -7.57005 0.662589 3.14159 1.35345 3.14159</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='aruco_visual_marker_7'>
-        <pose frame=''>-6.68202 -7.59551 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='marker'>
-          <pose frame=''>-6.68202 -7.59551 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='marker_pad'>
-          <pose frame=''>-6.68202 -7.59551 -1e-05 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>-2e-06 0 -3e-06 -1e-06 -1.2e-05 0</acceleration>
+          <wrench>-2e-06 0 -3e-06 0 -0 0</wrench>
         </link>
       </model>
       <model name='asphalt_plane'>
-        <pose frame=''>-0.538949 0.062824 0 0 -0 0</pose>
+        <pose frame=''>-0.661251 0.045315 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.538949 0.062824 0 0 -0 0</pose>
+          <pose frame=''>-0.661251 0.045315 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1600,7 +1568,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>2.7968 -12.2626 11.3809 0 0.569458 1.65353</pose>
+        <pose frame=''>-3.45208 -17.7046 16.1675 0 0.741458 1.44953</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -3566,7 +3534,7 @@
       <pose frame=''>-7.13149 7.37107 0 0 -0 1.64</pose>
     </model>
     <model name='artag2'>
-      <link name='artag2::simple_box_base_link'>
+      <link name='simple_box_base_link'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -3613,7 +3581,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/fredlaranja/warthog_ws/src/Warthog_ws/ur10_b/ur_description/meshes/ur10/visual/ARTAG2.dae</uri>
+              <uri>/home/fair/warthog_ws/src/warthog_auto/ur10_b/ur_description/meshes/ur10/visual/ARTAG2.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -3623,7 +3591,7 @@
             </script>
           </material>
         </visual>
-        <gravity>0</gravity>
+        <gravity>1</gravity>
         <velocity_decay/>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
@@ -3631,7 +3599,7 @@
       <pose frame=''>2 0 0.5 1.57 -0 0</pose>
     </model>
     <model name='artag2_clone'>
-      <link name='artag2::simple_box_base_link'>
+      <link name='simple_box_base_link'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -3678,7 +3646,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/fredlaranja/warthog_ws/src/Warthog_ws/ur10_b/ur_description/meshes/ur10/visual/ARTAG2.dae</uri>
+              <uri>/home/fair/warthog_ws/src/warthog_auto/ur10_b/ur_description/meshes/ur10/visual/ARTAG2.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -3688,12 +3656,12 @@
             </script>
           </material>
         </visual>
-        <gravity>0</gravity>
+        <gravity>1</gravity>
         <velocity_decay/>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-5.95141 6.35055 0.48015 1.5708 2e-06 0.138655</pose>
+      <pose frame=''>-5.88704 7.07001 0.149888 1.57084 -0 0</pose>
     </model>
   </world>
 </sdf>

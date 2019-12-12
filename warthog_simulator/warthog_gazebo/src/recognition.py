@@ -41,9 +41,14 @@ class image_converter:
         if res[1][0] == 100:
           self.flag_1 = True
           self.flag_1_pub.publish(self.flag_1)
+          self.flag_2 = False
+          self.flag_2_pub.publish(self.flag_2)
+          cv2.imwrite('/home/fair/warthog_ws/src/warthog_auto/Pictures/aruco_1.jpeg', cv_image)
         if res [1][0] == 99:
           self.flag_2 = True
           self.flag_2_pub.publish(self.flag_2)
+          # self.flag_1 = False
+          # self.flag_1_pub.publish(self.flag_1)
     cv2.imshow('frame',cv_image)
     cv2.waitKey(3)
 
